@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grape+Nuts&family=Tapestry&display=swap');
+.landing-page {
+    background-image: url("image/backgroung\ image.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: -20px -10px;
+}
+
+.navigation-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    margin-top: 20px;
+    margin-right: 10%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    padding-left: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.link:hover {
+    text-decoration: underline #ef2d23;
+    color: #ef2d23;
+    transition: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.logo {
+    color: white;
+    margin-left: 30%;
+    font-family: 'Tapestry', cursive;
+}
+
+.first-section {
+    margin-left: 50px;
+    margin-top: 9%;
+    padding-bottom: 6%;
+}
+
+.first-section h1 {
+    color: white;
+    font-size: 70px;
+}
+
+.first-section h3 {
+    color: white;
+    font-size: 30px;
+}
+
+.first-section p {
+    width: 34%;
+    color: white;
+}
+
+.second-page {
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.first-half {
+    margin-left: 50px;
+    width: 29%;
+    /* padding-top: 10px; */
+}
+
+.first-half h3 {
+    font-size: 31px;
+}
+
+.first-half p {
+    margin-bottom: 34px;
+    font-size: 17px;
+}
+
+.first-rest {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 60%;
+}
+
+.first-rest div {
+    width: 150px;
+    padding: 25px;
+}
+
+
+/* .first-rest div img {
+    width: 100%;
+    border-radius: 10px;
+} */
+
+.first-rest div h3 {
+    color: white;
+    text-align: center;
+}
+
+.first-rest div p {
+    color: white;
+    text-align: center;
+}
+
+.box-one {
+    background-color: blueviolet;
+}
+
+.box-two {
+    background-color: crimson;
+}
+
+.box-three {
+    background-color: black;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+.third-section {
+    background-image: url("image/second\ bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100%;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.third-section div {
+    padding-top: 130px;
+    padding-left: 50px;
+    padding-bottom: 145px;
+}
+
+.third-section div h1 {
+    font-size: 60px;
+}
+
+.third-section div input {
+    width: 280px;
+    height: 34px;
+    margin-bottom: 22px;
+    border-style: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.third-section div a {
+    background-color: blueviolet;
+    color: white;
+    padding: 13px 111px;
+}
+
+.fourth-section {
+    background-color: blueviolet;
+    color: white;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.fourth-section h1 {
+    padding: 40px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.fourth-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.fourth-grid div {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 60px;
+}
+
+.fourth-grid div h3 {
+    font-size: 22px;
+}
+
+.fifth-section {
+    background-color: white;
+    color: blueviolet;
+}
+
+.fifth-section h1 {
+    font-size: 55px;
+    text-align: center;
+}
+
+.fifth-section p {
+    text-align: center;
+    color: black;
+    margin-bottom: 6%;
+}
+
+.fifth-section div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.fifth-section div img {
+    width: 85%;
+    padding-bottom: 10%;
+}
+
+.sixth-section {
+    background-color: rgb(195, 204, 221);
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+}
+
+.sixth-half {
+    width: 40%;
+    margin-right: 10%;
+}
+
+.sixth-half h1 {
+    font-size: 45px;
+}
+
+.sixth-half div {
+    width: 65%;
+    height: 4%;
+    background-color: rgb(116, 53, 175);
+}
+
+.sixth-section p {
+    font-size: 20px;
+}
+
+.sixth-half a {
+    background-color: rgb(116, 53, 175);
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.Sixth-resthalf {
+    width: 45%;
+    background-color: whitesmoke;
+    background-size: 100%;
+    background-position: 100%;
+    height: 550px;
+}
+
+.Sixth-resthalf p {
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+.whitebox {
+    background-color: whitesmoke;
+    height: 50%;
+}
+
+.circle {
+    background-color: rgb(180, 129, 231);
+    width: 20%;
+    height: 18%;
+    margin-left: 5%;
+    border-radius: 50%;
+}
+
+.seventh-section {
+    background-color: white;
+    padding: 20px;
+}
+
+.seventh-section h1 {
+    color: rgb(116, 53, 175);
+    font-size: 40px;
+}
+
+.seven {
+    background-color: rgb(248, 238, 238);
+    display: flex;
+    height: 300px;
+}
+
+.seven-first {
+    width: 80%;
+}
+
+.seven-first p {
+    padding: 5%;
+}
+
+.seven-second {
+    background-color: rgb(116, 53, 175);
+    width: 20%;
+}
+
+footer {
+    background-color: rgb(20, 18, 18);
+    width: 100%;
+    /* margin-left: -10px; */
+    margin-bottom: -20px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding-top: 4%;
+    font-size: 17px;
+}
+
+footer h5 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+footer h5 a {
+    color: rgb(116, 53, 175);
+    margin-left: 1px;
+    margin-right: 3px;
+    text-decoration: underline;
+}
